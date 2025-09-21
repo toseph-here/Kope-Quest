@@ -1,0 +1,10 @@
+Component,File,Size (chars),Description,Key Features
+Main Bot,main.py,"46,439",Main bot application with all handlers,Start/Menu/Profile/Travel/PvP/Shop/Daily/Rankings/Admin
+Database,database.py,"10,324",Database operations with SQLite/PostgreSQL,Player CRUD/Inventory/Battle History/Achievements
+Game Logic,game_logic.py,"15,459",Core game mechanics and combat,Player/NPC Classes/Combat System/Element Effectiveness
+Configuration,config.py,"15,047",Game settings and balance,Elements/Locations/Shop Items/Achievements/Balance
+Dependencies,requirements.txt,499,Python package requirements,Telegram Bot/Database/Async Support
+Vercel Config,vercel.json,363,Vercel deployment configuration,Python Runtime/Routes/Environment
+Environment,.env.example,519,Environment variables template,Bot Token/Owner ID/Database/Webhook
+Documentation,README.md,"8,277",Complete project documentation,Setup Guide/Commands/Mechanics/Deployment
+Patch,main_patch.txt,"1,234",Database initialization fix,Async Database Setup
